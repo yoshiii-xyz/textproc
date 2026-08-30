@@ -1,0 +1,10 @@
+[package]
+name = "textproc"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Count words, lines, and bytes in text files"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
