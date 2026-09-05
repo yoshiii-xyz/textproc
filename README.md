@@ -16,8 +16,9 @@ textproc README.md
 cat file.txt | textproc
 ```
 
-Output:
+Example:
 
-```
-README.md: 42 lines, 156 words, 1024 bytes
+```console
+$ printf 'one two\nthree\n' | textproc
+-: 2 lines, 3 words, 14 bytes
 ```
